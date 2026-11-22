@@ -1,7 +1,12 @@
 jadx/
 jadx.zip
 extracted/
-larva-heroes-decompiled/
+larva-heroes-decompiled/build/
+larva-heroes-decompiled/dist/
+larva-heroes-lavengers-android13.apk
+*.idsig
+*.keystore
 tools/
 *.log
 __pycache__/
+.pytest_cache/
