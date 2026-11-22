@@ -1,0 +1,13 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.4.0 */
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class zzeth {
+    public abstract zzesm zza();
+
+    public abstract zzesm zzb();
+
+    public abstract zzfge zzc();
+
+    public abstract zzfhr zzd();
+}

@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.4.0 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzcra implements zzgyt {
+    private final zzgzg zza;
+    private final zzgzg zzb;
+    private final zzgzg zzc;
+
+    public zzcra(zzgzg zzgzgVar, zzgzg zzgzgVar2, zzgzg zzgzgVar3) {
+        this.zza = zzgzgVar;
+        this.zzb = zzgzgVar2;
+        this.zzc = zzgzgVar3;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgzg
+    public final /* synthetic */ Object zzb() {
+        return ((zzcvz) this.zza).zza().zza() == null ? ((zzeep) this.zzc).zzb() : ((zzefi) this.zzb).zzb();
+    }
+}

@@ -1,0 +1,25 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.4.0 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzfly extends zzgrm implements zzgtb {
+    private zzfly() {
+        super(zzflz.zzd);
+    }
+
+    public final zzfly zza(String str) {
+        zzap();
+        zzflz.zzd((zzflz) this.zza, str);
+        return this;
+    }
+
+    public final zzfly zzb(int i) {
+        zzap();
+        zzflz.zze((zzflz) this.zza, 2);
+        return this;
+    }
+
+    /* synthetic */ zzfly(zzflw zzflwVar) {
+        super(zzflz.zzd);
+    }
+}

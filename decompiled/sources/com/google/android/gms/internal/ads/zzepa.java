@@ -1,0 +1,23 @@
+package com.google.android.gms.internal.ads;
+
+import android.content.Context;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.4.0 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzepa implements zzgyt {
+    private final zzgzg zza;
+    private final zzgzg zzb;
+
+    public zzepa(zzgzg zzgzgVar, zzgzg zzgzgVar2) {
+        this.zza = zzgzgVar;
+        this.zzb = zzgzgVar2;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgzg
+    public final /* bridge */ /* synthetic */ Object zzb() {
+        Context contextZza = ((zzchj) this.zza).zza();
+        zzfyo zzfyoVar = zzcan.zza;
+        zzgzb.zzb(zzfyoVar);
+        return new zzeoz(contextZza, zzfyoVar);
+    }
+}

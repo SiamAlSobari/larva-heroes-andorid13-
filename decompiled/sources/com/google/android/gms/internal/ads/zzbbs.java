@@ -1,0 +1,19 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.4.0 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzbbs {
+    private boolean zza;
+
+    zzbbs() {
+    }
+
+    public final synchronized void zza() {
+        if (((Boolean) zzbdl.zza.zze()).booleanValue()) {
+            if (this.zza) {
+                return;
+            }
+            this.zza = true;
+        }
+    }
+}

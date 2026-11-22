@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads-lite@@22.4.0 */
+/* JADX INFO: loaded from: classes2.dex */
+final class zzbrm extends zzbfz {
+    final /* synthetic */ zzbrp zza;
+
+    /* synthetic */ zzbrm(zzbrp zzbrpVar, zzbrl zzbrlVar) {
+        this.zza = zzbrpVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzbga
+    public final void zze(zzbfq zzbfqVar, String str) {
+        zzbrp zzbrpVar = this.zza;
+        if (zzbrpVar.zzb == null) {
+            return;
+        }
+        zzbrpVar.zzb.onCustomClick(zzbrpVar.zzf(zzbfqVar), str);
+    }
+}

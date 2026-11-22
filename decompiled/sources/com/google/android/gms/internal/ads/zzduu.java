@@ -1,0 +1,29 @@
+package com.google.android.gms.internal.ads;
+
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd;
+import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAdLoadCallback;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.4.0 */
+/* JADX INFO: loaded from: classes2.dex */
+final class zzduu extends RewardedInterstitialAdLoadCallback {
+    final /* synthetic */ String zza;
+    final /* synthetic */ String zzb;
+    final /* synthetic */ zzduy zzc;
+
+    zzduu(zzduy zzduyVar, String str, String str2) {
+        this.zzc = zzduyVar;
+        this.zza = str;
+        this.zzb = str2;
+    }
+
+    @Override // com.google.android.gms.ads.AdLoadCallback
+    public final void onAdFailedToLoad(LoadAdError loadAdError) {
+        this.zzc.zzm(zzduy.zzl(loadAdError), this.zzb);
+    }
+
+    @Override // com.google.android.gms.ads.AdLoadCallback
+    public final /* bridge */ /* synthetic */ void onAdLoaded(RewardedInterstitialAd rewardedInterstitialAd) {
+        this.zzc.zzg(this.zza, rewardedInterstitialAd, this.zzb);
+    }
+}

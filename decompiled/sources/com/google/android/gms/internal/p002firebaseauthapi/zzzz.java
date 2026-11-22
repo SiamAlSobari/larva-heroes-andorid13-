@@ -1,0 +1,15 @@
+package com.google.android.gms.internal.p002firebaseauthapi;
+
+/* JADX INFO: compiled from: com.google.firebase:firebase-auth@@22.1.2 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzzz {
+    private final String zza;
+
+    public zzzz(String str) {
+        this.zza = str;
+    }
+
+    public final String zza() {
+        return this.zza;
+    }
+}

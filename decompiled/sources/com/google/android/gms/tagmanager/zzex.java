@@ -1,0 +1,11 @@
+package com.google.android.gms.tagmanager;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-tagmanager-v4-impl@@18.0.3 */
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class zzex {
+    public abstract void zza();
+
+    public abstract void zzb();
+
+    public abstract void zzc(boolean z);
+}

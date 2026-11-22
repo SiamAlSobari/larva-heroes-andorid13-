@@ -1,0 +1,7 @@
+jadx/
+jadx.zip
+extracted/
+larva-heroes-decompiled/
+tools/
+*.log
+__pycache__/

@@ -1,0 +1,40 @@
+package com.google.android.gms.internal.p002firebaseauthapi;
+
+import com.google.firebase.FirebaseException;
+import com.google.firebase.auth.PhoneAuthCredential;
+import com.google.firebase.auth.PhoneAuthProvider;
+
+/* JADX INFO: compiled from: com.google.firebase:firebase-auth@@22.1.2 */
+/* JADX INFO: loaded from: classes2.dex */
+final class zzafl extends PhoneAuthProvider.OnVerificationStateChangedCallbacks {
+    final /* synthetic */ PhoneAuthProvider.OnVerificationStateChangedCallbacks zza;
+    final /* synthetic */ String zzb;
+
+    zzafl(PhoneAuthProvider.OnVerificationStateChangedCallbacks onVerificationStateChangedCallbacks, String str) {
+        this.zza = onVerificationStateChangedCallbacks;
+        this.zzb = str;
+    }
+
+    @Override // com.google.firebase.auth.PhoneAuthProvider.OnVerificationStateChangedCallbacks
+    public final void onCodeAutoRetrievalTimeOut(String str) {
+        zzafn.zza.remove(this.zzb);
+        this.zza.onCodeAutoRetrievalTimeOut(str);
+    }
+
+    @Override // com.google.firebase.auth.PhoneAuthProvider.OnVerificationStateChangedCallbacks
+    public final void onCodeSent(String str, PhoneAuthProvider.ForceResendingToken forceResendingToken) {
+        this.zza.onCodeSent(str, forceResendingToken);
+    }
+
+    @Override // com.google.firebase.auth.PhoneAuthProvider.OnVerificationStateChangedCallbacks
+    public final void onVerificationCompleted(PhoneAuthCredential phoneAuthCredential) {
+        zzafn.zza.remove(this.zzb);
+        this.zza.onVerificationCompleted(phoneAuthCredential);
+    }
+
+    @Override // com.google.firebase.auth.PhoneAuthProvider.OnVerificationStateChangedCallbacks
+    public final void onVerificationFailed(FirebaseException firebaseException) {
+        zzafn.zza.remove(this.zzb);
+        this.zza.onVerificationFailed(firebaseException);
+    }
+}
